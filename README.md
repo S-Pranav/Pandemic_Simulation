@@ -7,5 +7,6 @@ This model is then verified by changing the parameters and comparing the effects
 Eg : increasing the probability of catching the disease if you stray close to an infected person should increase the rate of transimission, so should
 increasing the radisu of infectivity. These are used as a sanity check of the model.
 
-The second part is to add different conditions to the model that simulate the real life actions that we take to reduce the spread. This includes a mechanism
-for quarantine, contact tracing and closing of communal areas
+The second part is to add different conditions to the model that simulate the real life actions that we take to reduce the spread. This includes a mechanism for quarantine, contact tracing and closing of communal areas.
+
+1. Quarantine : After the total number of infected crosses a given limit those who show symptoms are quarantined separately. They are released once they are cured (to the box) or dead (to the morgue).
